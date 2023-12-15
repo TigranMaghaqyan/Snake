@@ -1,0 +1,295 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1702489953411)
++++ b/.idea/.gitignore	(date 1702489953411)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1702489989047)
++++ b/.idea/encodings.xml	(date 1702489989047)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1702569055695)
++++ b/.idea/misc.xml	(date 1702569055695)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++    <option name="workspaceImportForciblyTurnedOn" value="true" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1702490818677)
++++ b/.idea/uiDesigner.xml	(date 1702490818677)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/artifacts/Snake_jar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/Snake_jar.xml b/.idea/artifacts/Snake_jar.xml
+new file mode 100644
+--- /dev/null	(date 1702498432074)
++++ b/.idea/artifacts/Snake_jar.xml	(date 1702498432074)
+@@ -0,0 +1,75 @@
++<component name="ArtifactManager">
++  <artifact type="jar" name="Snake:jar">
++    <output-path>$PROJECT_DIR$/out/artifacts/Snake_jar</output-path>
++    <root id="archive" name="Snake.jar">
++      <element id="module-output" name="Snake" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21-ea+24/javafx-base-21-ea+24-win.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21-ea+24/javafx-controls-21-ea+24-win.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21-ea+24/javafx-fxml-21-ea+24-win.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21-ea+24/javafx-graphics-21-ea+24.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21-ea+24/javafx-fxml-21-ea+24.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21-ea+24/javafx-controls-21-ea+24.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21-ea+24/javafx-base-21-ea+24.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21-ea+24/javafx-graphics-21-ea+24-win.jar" path-in-jar="/" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-console-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-console-l1-2-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-datetime-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-debug-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-errorhandling-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-file-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-file-l1-2-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-file-l2-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-handle-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-heap-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-interlocked-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-libraryloader-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-localization-l1-2-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-memory-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-namedpipe-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-processenvironment-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-processthreads-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-processthreads-l1-1-1.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-profile-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-string-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-synch-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-synch-l1-2-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-sysinfo-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-timezone-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-core-util-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-conio-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-convert-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-environment-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-filesystem-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-heap-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-locale-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-math-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-multibyte-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-private-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-process-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-runtime-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-stdio-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-string-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-time-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/api-ms-win-crt-utility-l1-1-0.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/decora_sse.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/fxplugins.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/glass.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/glib-lite.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/gstreamer-lite.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/javafx_font.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/javafx_iio.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/jfxmedia.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/jfxwebkit.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/msvcp140.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/msvcp140_1.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/msvcp140_2.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/prism_common.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/prism_d3d.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/prism_sw.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/ucrtbase.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/vcruntime140.dll" />
++      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/bin/vcruntime140_1.dll" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1702658043834)
++++ b/.idea/vcs.xml	(date 1702658043834)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
